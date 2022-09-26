@@ -7,7 +7,7 @@ free api for testing. Using my app you can view,add,update and delete users,post
 
 
 <b> Technologies used </b>
-<ul> 
+<ul>  
 <li>Java</li>
 <li>Spring Boot</li>
 <li>Maven</li>
