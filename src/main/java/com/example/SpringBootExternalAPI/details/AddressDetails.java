@@ -1,4 +1,4 @@
-package com.example.SpringBootExternalAPI.model;
+package com.example.SpringBootExternalAPI.details;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
@@ -6,7 +6,7 @@ import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.io.Serializable;
+import java.util.List;
 
 @Getter
 @Setter
@@ -14,15 +14,18 @@ import java.io.Serializable;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class PhotoModel implements Serializable {
+public class AddressDetails {
 
-    private long albumId;
+    private String street;
 
-    private long id;
+    private String suite;
 
-    private String title;
+    private String city;
 
-    private String url;
+    private String zipcode;
 
-    private String thumbnailUrl;
+    private GeoDetails geo;
+
+
+
 }
