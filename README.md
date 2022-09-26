@@ -17,5 +17,5 @@ free api for testing. Using my app you can view,update and add users,posts and p
 
 <b> Execution </b>
 
-You can download source code and use Intelij to run it. In folder application.properties i use the default server port(8080) so if you already use this somewhere, 
+You can download source code and use Intelij to run it. In folder application.properties i use the default server port(8080) so if you already use this somewhere else, 
 you can change the server port. Open SpringBootExternalApiApplication.class and run the program. Using Postman(preferable way) you can send requests and receive data.
