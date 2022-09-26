@@ -3,7 +3,7 @@
 <b> About the Api </b>
 
 <p> We call an external API and we send HTTP METHODS(GET,POST,PUT,DELETE). More specifically i use this website -> https://jsonplaceholder.typicode.com/ which gives me
-free api for testing. Using my app you can view,update and add users,posts and photos. 
+free api for testing. Using my app you can view,add,update and delete users,posts and photos. 
 
 
 <b> Technologies used </b>
