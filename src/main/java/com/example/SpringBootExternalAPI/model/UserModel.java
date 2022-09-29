@@ -27,14 +27,12 @@ public class UserModel implements Serializable {
 
     private String email;
 
-    //    private List<AddressDetails> address;
     private AddressDetails address;
 
     private String phone;
 
     private String website;
 
-    //    private List<CompanyDetails> company;
     private CompanyDetails company;
 
 }
